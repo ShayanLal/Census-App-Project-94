@@ -45,6 +45,6 @@ census_df = load_data()
 
 if st.sidebar.checkbox('Show raw data'):
   st.subheader('Census Data set')
-  st.dataframe(df)
-  st.text(f"Number of rows: {df.shape[0]}")
-  st.text(f"Number of columns: {df.shape[1]}")
+  st.dataframe(census_df)
+  st.text(f"Number of rows: {census_df.shape[0]}")
+  st.text(f"Number of columns: {census_df.shape[1]}")
